@@ -1,6 +1,7 @@
 # How to Install and run Pi-Hole on a physical server as a recursive ad filter
 
 How to set up Pi-Hole with Unbound to make a recursive DNS sinkhole. This project was inspired by Craft Computing on YouTube: https://www.youtube.com/watch?v=FnFtWsZ8IP0
+He uses VMs for his server, I happened to have an extra Opitplex MF lying around so I repurposed it.
 
 ## Objective
 Set up pi-hole via Ubuntu Server to block ads network-wide and increase privacy. Pi-hole will become your DNS server or a DNS sinkhole that will intercept and redirect DNS requests to a non-routable address for certain set of domain names, aka your filter list.
