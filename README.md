@@ -1,6 +1,6 @@
 # How to Install and run Pi-Hole on a physical server as a recursive ad filter
 
-How to set up Pi-Hole with Unbound to make a recursive DNS sinkhole. This project was inspired by Craft Computing on YouTube: https://www.youtube.com/watch?v=FnFtWsZ8IP0
+How to set up Pi-Hole with Unbound to make a recursive DNS server. This project was inspired by Craft Computing on YouTube: https://www.youtube.com/watch?v=FnFtWsZ8IP0
 He uses VMs for his server, I happened to have an extra Opitplex MF lying around so I repurposed it.
 
 ## Objective
@@ -17,7 +17,12 @@ The answer recursively gets answers back
 Client > pi-hole > unbound > DNS server > unbound > pi-hole > client
 
 ### Skills Learned
-
+- How to install and set up an Ubuntu Server
+- How to SSH into a server using Powershell and PuTTY
+- How to update Ubuntu server through the CLI
+- How to install applications into an Ubuntu Server
+- How to use nano text editor to create, open, and edit config files
+- Concepts of recursive vs authoritative DNS server
 
 ### Tools Used
 Hardware Requirements
