@@ -35,7 +35,7 @@ Hardware Requirements
 Software Requirements 
 - Ubuntu Server iso
 - Rufus
-- PuTTY, or any other method for SSH
+- PuTTY, or any other method for SSH (optional)
 
 ### Alternative to using a physical server
 Alternative to running a physical server, or installing Ubuntu Server on a device, you can use a hypervisor to great a virtual machine of Ubuntu Server that will run pi-hole.
